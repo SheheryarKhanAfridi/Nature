@@ -1,0 +1,1391 @@
+
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 70%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      object-fit: cover;
+    }
+    .slide1{
+        background-image: url(../images/slider-1.jpeg);
+        background-size: cover;
+        background-position:top;
+    }
+    .slide1text{
+        padding-top: 50px;
+        margin: 10px;
+        width: 50%;
+        text-align: right;
+        color: white;
+    }
+.slide1text p{
+    font-size: 13px;
+}
+.slide1parent{
+    display: flex;
+    justify-content: end;
+}
+.slide1anchor{
+    color: white;
+    font-size: 25px;
+}
+.slide2{
+    background-image: url(../images/slider-6.jpg);
+    background-size: cover;
+    background-position:top;
+}
+.slide3{
+    background-image: url(../images/slider-4.jpg);
+    background-size: cover;
+    background-position:center;
+}
+.slide4{
+    background-image: url(../images/slide-13.jpg);
+    background-size: cover;
+   
+}
+.slide2text{
+    padding-top: 50px;
+    margin: 10px;
+    width: 50%;
+    text-align: right;
+    color: white;
+}
+.slide3text{
+    padding-top: 50px;
+    margin: 10px;
+    width: 50%;
+    text-align: right;
+    color: white;
+}
+.slide4text{
+    padding-top: 50px;
+    margin: 10px;
+    width: 50%;
+    text-align: right;
+    color: white;
+}
+.slide2text p{
+    font-size: 13px;
+}
+.slide3text p{
+    font-size: 13px;
+}
+.slide4text p{
+    font-size: 13px;
+}
+.slide2parent{
+    display: flex;
+    justify-content: end;
+}
+.slide3parent{
+    display: flex;
+    justify-content: end;
+    color: #000;
+}
+.slide4parent{
+    display: flex;
+    justify-content: end;
+}
+.slide5{
+    background-image: url(../images/slide-16.jpg);
+    background-size: cover;
+   
+}
+.slide5text{
+    padding-top: 50px;
+    margin: 10px;
+    width: 50%;
+    text-align: right;
+    color: white;
+}
+.slide5parent{
+    display: flex;
+    justify-content: end;
+}
+.slide6{
+    background-image: url(../images/slide-14.png);
+    background-size: cover;
+   
+}
+.slide6text{
+    padding-top: 50px;
+    margin: 10px;
+    width: 50%;
+    text-align: right;
+    color: white;
+}
+.slide6parent{
+    display: flex;
+    justify-content: end;
+}
+.slide4text p{
+    font-size: 13px;
+}
+.slide5text p{
+    font-size: 13px;
+}
+.slide6text p{
+    font-size: 13px;
+}
+.card1{
+   margin: 20px;
+   padding: 20px;
+}
+.cardimage{
+    width: 100%;
+}
+.card1text{
+padding-top: 20px;
+
+}
+.cardsection{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -100px;
+    z-index: 1;
+    
+}
+.bellowcardsection{
+    background-color: white;
+    padding-bottom: 350px;
+}
+.bellowcard{
+    background-color: #1a1a1a;
+}
+.bellowcardchild1{
+    color: white;
+}
+.bellowcardchild1 h1{
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.bellowcardchild1 p{
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+.bellowcardchild1 a{
+   
+    
+}
+.getcard{
+    width: 100%;
+    display: flex;
+}
+.specialchilds{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.specialchild1{
+    padding: 30px;
+}
+.specialchild1 h1{
+    font-size: 45px;
+}
+.specialchild2{
+    font-size: 16px;
+    padding: 30px;
+}
+.specialchild3{
+    font-size: 16px;
+    padding: 30px;
+}
+.specialchild3 a{
+    color: black;
+    font-size: 25px;
+}
+.migthcardssection{
+    width: 90%;
+    display: flex;
+   
+}
+.mightbackground{
+    background:  #e0e5eb;
+}
+.mcard1width{
+    width: 100%;
+}
+.llcard1{
+    width: 100%;
+    height: 400px;
+}
+.llcardtext{
+    font-style: italic;
+     font-size: 17px;
+     padding: 30px 10px;
+       background: white;
+}
+.llcardtext3{
+    font-style: italic;
+     font-size: 17px;
+     padding: 43px 10px;
+       background: white;
+}
+
+.lcardswidth{
+    margin-top: 70px;
+    width: 65%;
+    margin-left: auto;
+}
+.lcardpicwidth{
+width: 100%;
+height: 300px;
+object-fit: cover;
+
+
+}
+
+
+.lcards2width{
+    width: 100%;
+}
+.lcard2pic{
+    margin-top: 50px;
+width: 100%;
+height: 300px;
+object-fit: cover;
+margin-bottom: 50px;
+
+}
+.collumn2lcard1{
+    width: 100%;
+}
+
+.collumn2lcardpic{
+    width: 100%;
+    height: 500px;
+}
+.collumn2text{
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+.column2button{
+    padding: 10px 50px !important;
+    font-size: 20px;
+    border-radius: 0%;
+}
+.collumn3textdiv{
+    margin-top: 100px;
+    width: 100%;
+    padding: 30px;
+    margin-left: -80px;
+    background: white;
+}
+.collumn3textdiv h2{
+    font-size: 40px;
+}
+.collumn3textdiv p{
+    font-size: 16px;
+}
+.lcardssection{
+    margin-top: 100px;
+}
+.naturediv{
+    margin-left: auto;
+    width: 60%;
+    padding-bottom: 500px;
+    background-image: url(../images/natureback.jpeg);
+    background-size: cover;
+    height: 200px;
+   
+}
+.naturetext{
+    font-size: 150px;
+    color: white; 
+    margin-left: -100px;
+    padding-top: 150px;
+}
+.naturecollumn1text{
+    margin-left: auto;
+    width: 370px;
+    margin-right: 10px;
+    padding-top: 30px;
+    font-size: 17px;
+}
+.naturecollumn2div{
+    margin-top: 100px;
+    width: 370px;
+    padding: 20px;
+    background: white;
+    padding-bottom: 50px;
+}
+.comma{
+    font-size: 100px;
+}
+.commabtn{
+    padding: 10px 50px;
+    font-size: 25px;
+    border-radius: 0%;
+    color: white;
+}
+.commapara{
+    font-size: 30px;
+}
+.naturesection{
+    background: #1a1a1a;
+   padding: 50px 0px;
+}
+.naturecollumn1text p{
+    color: white;
+}
+.ourmission{
+    padding-right: 80px;
+}
+.ourmission p{
+    font-size: 20px;
+    padding: 10px 0px;
+    color: white;
+}
+.ourmission h1{
+    padding-top: 50px;
+    color: white;
+}
+.ourmissionanchor{
+    font-size: 25px;
+    color: white;
+}
+.ourmissionsection{
+    background-color: #1a1a1a;
+    padding-bottom: 30px;
+}
+.tigerdivwidth{
+    margin-left: auto;
+    width:100%;
+    height: 500px;
+    background-image: url(../images/tiger.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.tigerdivtext{
+    padding-top: 40px;
+    font-size: 140px;
+    text-align: center;
+}
+.tiger2divwidth{
+    margin-left: auto;
+    width:100%;
+    height: 500px;
+    background-image: url(../images/tiger2.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.collumn2tiger{
+    padding: 10px;
+}
+.collumn2tiger p{
+    padding-right: 100px;
+    font-size: 17px;
+}
+.collumn2tiger h1{
+    font-size: 50px;
+    padding-right: 70px;
+}
+.tigercard1{
+    margin: 10px;
+    height: 200px;
+    background-image: url(../images/tigercard1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.tigercards{
+    display: flex;
+    width: 95%;
+    margin-left: -80px;
+    margin-top: -90px;
+}
+.tigercard2{
+    margin: 10px;
+    height: 200px;
+    background-image: url(../images/tigercard2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.tigercard3{
+    margin: 10px;
+    height: 200px;
+    background-image: url(../images/tigercard3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.formsize{
+    font-size: 16px;
+    border-radius: 0%;
+    color: white;
+    width: 70%;
+}
+.formbtn{
+    color: #000;
+    padding: 10px 60px;
+    background: white;
+    font-size: 20px;
+    border-radius: 0px;
+}
+.formtext{
+    padding: 10px;
+    color: white;
+}
+.formtext h1{
+    font-size: 50px;
+    padding: 0px;
+}
+.formtext i{
+    font-size: 50px;
+    padding: 20px;
+}
+.formtext p{
+    font-size: 17px;
+    margin: 0px;
+}
+.formsection{
+    padding: 50px 0px;
+    background: #1a1a1a;
+}
+.formimgsectionparent1{
+    display: flex;
+    padding-top: 50px;
+}
+.formimagesdiv{
+    width: 50%;
+    background-image: url(../images/formsectionpic1.jpg);
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+}
+.formimgtext1{
+    display: flex;
+    align-items: end;
+    width: 50%;
+    color: white;
+}
+.formimgtext1 h3{
+    font-size: 35px;
+    line-height: 40px;
+    margin-left: 20px;
+    padding-right: 10px;
+}
+.formimgtext2{
+    padding-top: 100px;
+    width: 50%;
+    color: white;
+}
+.formimgtext2 p{
+    font-size: 15px;
+    padding-right: 10px;
+}
+.formimgtext2 a{
+    color: white;
+    font-size: large;
+}
+.formimagesdiv2{
+    width: 50%;
+    background-image: url(../images/formsectionpic2.jpg);
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+}
+.footerdiv2{
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+    
+}
+.footerdiv1{
+    padding-top: 20px;
+    width: 30%;
+    text-align: center;
+    padding-bottom: 80px;
+    color: white;
+}
+.footerparent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #333333;
+}
+
+
+
+@media screen and (max-width:1366px){
+    .cardsection {
+        bottom: -211px;
+    }
+}
+@media screen and (max-width:1280px){
+    
+    .cardsection {
+        bottom: -100px;
+    }
+    .bellowcardsection {
+        background-color: white;
+        padding-bottom: 300px;
+    }
+    .naturediv {
+        
+        width: 70%;
+       
+    }
+    .formsize {
+        width: 90%;
+    }
+    
+
+}
+
+    @media screen and (max-width:1024px){
+        .card1 {
+            margin: 20px;
+            padding: 11px;
+        }
+        .collumn2lcardpic {
+            width: 100%;
+            height: 411px;
+        }
+        .lcardswidth {
+            margin-top: 30px;
+            width: 75%;
+        }
+        .lcard2pic {
+            margin-top: 20px;
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            margin-bottom: 50px;
+        }
+        .collumn3textdiv h2 {
+            font-size: 30px;
+        }
+        .collumn3textdiv p {
+            font-size: 14px;
+        }
+        .collumn2text {
+            font-size: 15px;
+           
+        }
+        .naturetext {
+            font-size: 140px;
+            margin-left: -100px;
+        }
+        .naturecollumn1text {
+            width: 310px;
+            font-size: 15px;
+        }
+        .mcard1width {
+            width: 106%;
+        }
+        .llcard1 {
+            height: 350px;
+        }
+        .tigerdivtext {
+            padding-top: 40px;
+            font-size: 130px;
+            text-align: center;
+        }
+        .tigercards {
+          
+            margin-left: -155px;
+            
+        }
+        .tigercard1 {
+            width: 180px;
+            
+        }
+        .tigercard2 {
+            width: 180px;
+            
+        }
+        .tigercard3 {
+            width: 180px;
+            
+        }
+        .formtext p {
+            font-size: 16px;
+        }
+
+
+    }
+    @media screen and (max-width:992px){
+
+        .slide1text {
+            padding-right: 43px;
+        }
+        .container, .container-md, .container-sm {
+            max-width: 990px;
+        }
+        .swiper {
+            width: 100%;
+            height: 60%;
+        }
+        .cardsection {
+            bottom: 40px;
+        }
+        .bellowcardsection {
+            padding-bottom: 260px;
+        }
+        .lcardpicwidth {
+           
+            height: 230px;
+         
+        }
+        .collumn2lcardpic {
+            width: 120%;
+            height: 331px;
+        }
+        .collumn3textdiv {
+            margin-top: 52px;
+           padding: 15px;
+            margin-left: -35px;
+           
+        }
+        .collumn3textdiv p {
+            font-size: 13px;
+        }
+        .collumn3textdiv h2 {
+            font-size: 25px;
+        }
+        .collumn2text {
+            font-size: 13px;
+        }
+        .specialchild2 {
+            font-size: 14px;
+            padding: 19px;
+        }
+        .specialchild3 {
+            font-size: 14px;
+            padding: 19px;
+        }
+        .specialchild1 {
+            padding: 21px;
+        }
+        .naturetext {
+            font-size: 116px;
+            margin-left: -70px;
+        }
+        .naturediv {
+            width: 80%;
+        }
+        .naturecollumn1text {
+            width: 290px;
+            font-size: 14px;
+        }
+        .commapara {
+            font-size: 27px;
+        }
+        .llcard1 {
+            height: 300px;
+        }
+        .llcard2 {
+            height: 300px;
+        }
+
+        .llcard3 {
+            height: 300px;
+        }
+        .llcardtext {
+            font-size: 14px;     
+        }
+        .llcardtext3 {
+            font-style: italic;
+            font-size: 14px;
+            padding: 41px 10px;
+            background: white;
+        }
+        .ourmission p {
+            font-size: 17px;
+            
+        }
+        .tigerdivtext {
+          
+            font-size: 103px;
+           
+        }
+        .collumn2tiger h1 {
+            font-size: 45px;
+            padding-right: 70px;
+        }
+        .collumn2tiger p {
+            padding-right: 70px;
+            font-size: 15px;
+        }
+        .tigercards {
+            margin-left: -310px;
+        }
+        .formimgtext1 h3 {
+            font-size: 27px;
+            line-height: 30px;
+            margin-left: 20px;
+            padding-right: 0px;
+
+            
+        }
+        .formimgtext1 {
+            align-items: center;    
+        }
+        .formimgtext2 p {
+            font-size: 13px;
+            padding-right: 10px;
+        }
+        .formimagesdiv {
+            width: 85%;
+            height: 256px;
+            background-position: center;
+        }
+        .formimagesdiv2 {
+            width: 50%;
+            height: 256px;
+           
+        }
+        .footerdiv1 {
+            width: 41%;
+        }
+
+
+
+
+
+       
+    }
+    @media screen and (max-width:768px){
+        .collumn2tiger h1 {
+            font-size: 37px;
+            padding-right: 0px;
+        }
+        .collumn2tiger p {
+            padding-right: 0px;
+            font-size: 13px;
+        }
+        .mcard1width {
+            width: 100%;
+        }
+        .lcardssection {
+            margin-top: 40px;
+        }
+    }
+    @media screen and (max-width:767px){
+        .bellowcardsection {
+            
+            padding-bottom: 1800px;
+            background: white;
+        }
+        .cardsection .row {
+            --bs-gutter-x: -17.5rem;
+            flex-wrap: wrap;
+           
+        }
+        .cardsection {
+            bottom: -1300px;
+           
+        }
+        .swiper {
+            height: 46%;
+        }
+        .slide1text p {
+            font-size: 10px;
+        }
+        .lcardpicwidth {
+            width: 61%;
+          
+
+        }
+        .lcard2pic {
+         
+            width: 66%;
+            height: 499px;
+            margin-left: 120px;
+           
+        }
+        .collumn2lcardpic {
+            width: 70%;
+            height: 600px;
+            margin-left: 100px;
+        }
+        .collumn2text {
+         padding: 50px;
+            font-size: 23px;
+        }
+        .column2button{
+            margin-left: 50px;
+        }
+        .collumn3textdiv {
+            margin-top: 20px;
+            padding: 45px;
+            margin-left: 140px;
+            width: 60%;
+            margin-bottom: 40px;
+        }
+        .collumn3textdiv p {
+            font-size: 15px;
+        }
+        .collumn3textdiv h2 {
+            font-size: 32px;
+        }
+        .naturediv {
+            width: 100%;
+            height: 800px;
+        }
+        .naturetext {
+            padding-top: 400px;
+            font-size: 166px;
+            margin-left: 10px;
+        }
+        .naturecollumn1text {
+            width: 100%;
+            font-size: 19px;
+            padding: 30px;
+        }
+        .naturecollumn2div {
+            width: 100%;
+        }
+        .migthcardssection {
+            margin-left: auto;
+            flex-wrap: wrap;
+           
+        }
+        .mcard1width {
+            margin-inline: inherit;
+        }
+        .tigerdivtext {
+            text-align: start;
+        }
+        .collumn2tiger p {
+            padding-right: 0px;
+            font-size: 16px;
+        }
+        .collumn2tiger h1 {
+            font-size: 46px;
+            padding-right: 0px;
+        }
+        .bellowcardchild1 {
+            color: white;
+            padding: 30px;
+        }
+        .specialchilds {
+            padding-inline: 100px;
+        }
+        .ourmission {
+            padding-right: 0px;
+            padding: 80px;
+        }
+        .collumn2tiger h1 {
+            font-size: 36px;
+            padding-right: 0px;
+        }
+        .collumn2tiger p {
+            font-size: 14px;
+        }
+        .tigercards {
+            
+            margin-top: 0px;
+            margin-left: 0px;
+            display: block;
+        }
+        .tigercard1 {
+            margin-left: auto;
+            margin-right: auto;
+            width: 70%;
+            height: 400px;
+        }
+        .tigercard2 {
+            margin-left: auto;
+            margin-right: auto;
+            width: 70%;
+            height: 400px;
+        }
+        .tigercard3 {
+            margin-left: auto;
+            margin-right: auto;
+            width: 70%;
+            height: 400px;
+        }
+        .formsection {
+            padding: 50px 90px;
+        }
+        .formtext i {
+            font-size: 50px;
+            padding: 20px 0px;
+        }
+        .formimgtext2 p {
+            font-size: 14px;
+            padding-right: 0px;
+        }
+        
+
+        
+        
+    }
+    @media screen and (max-width:600px){
+        .cardsection {
+            bottom: -807px;
+        }
+        .bellowcardsection {
+            padding-bottom: 1170px;
+            background: white;
+        }
+        .migthcardssection {
+            margin-left: auto;
+            margin-right: auto;
+            flex-wrap: wrap;
+        }
+        .footerdiv1 {
+            width: 64%;
+        }
+        .formimgtext2 {
+            padding-top: 0px;
+            width: 50%;
+            color: white;
+        }
+        .lcard2pic {
+            width: 100%;
+            height: 499px;
+           margin-left: 0px;
+        }
+        .collumn3textdiv {
+            margin-top: 20px;
+            padding: 45px;
+            margin-left: 0px;
+            width: 100%;
+            margin-bottom: 40px;
+        }
+       
+
+
+    }
+    @media screen and (max-width:540px){
+        .cardsection .row {
+            --bs-gutter-x: -1.5rem;
+            flex-wrap: wrap;
+        }
+        .cardsection {
+            bottom: -1438px;
+        }
+        .bellowcardsection {
+            padding-bottom: 1830px;
+            background: white;
+        }
+        .lcardswidth {
+            margin-top: 30px;
+            width: 100%;
+        }
+        .lcardpicwidth {
+            width: 100%;
+        }
+        .lcardpicwidth {
+            height: 400px;
+        }
+        .collumn2lcardpic {
+            width: 100%;
+            height: 600px;
+            margin-left: 0px;
+        }
+        .naturetext {
+            margin-left: 0px;
+            margin: auto;
+        }
+        .mcard1width {
+            margin: auto;
+        }
+        .formimgsectionparent1 {
+            display: block;
+            padding-top: 50px;
+        }
+        .formimgtext1 {
+            margin: auto;
+            padding: 0px;
+            align-items: end;
+            width: 100%;
+            color: white;
+        }
+        .formimagesdiv {
+            
+            width: 100%;
+            height: 400px;
+        }
+        .formimagesdiv2 {
+            margin-top: 20px;
+            width: 100%;
+            height: 400px;
+        }
+        .formimgtext2 {
+            padding-top: 0px;
+            width: 100%;
+            color: white;
+        }
+    }
+@media screen and (max-width:480px){
+    .slide1text {
+        
+        width: 70%;
+        
+    }
+    .cardsection .row {
+        --bs-gutter-x: -8.5rem;
+        flex-wrap: wrap;
+    }
+    .cardsection {
+        bottom: -898px;
+    }
+    .bellowcardsection {
+        padding-bottom: 1250px;
+        background: white;
+    }
+    .specialchilds {
+        padding-inline: 30px;
+    }
+    .naturetext {
+        padding-top: 370px;
+        font-size: 148px;
+        margin-left: 10px;
+    }
+    .ourmission {
+        padding-right: 0px;
+        padding: 50px;
+    }
+    .formimagesdiv {
+        width: 100%;
+        height: 270px;
+    }
+    .formimagesdiv2 {
+        width: 100%;
+        height: 270px;
+    }
+    .formsection {
+        padding: 50px 30px;
+    }
+    .slide1text h1{
+        font-size: 20px;
+    }
+    .slide1text p {
+        font-size: 8px;
+    }
+
+}
+@media screen and (max-width:425px){
+    .cardsection {
+        bottom: -690px;
+    }
+    .slide1text {
+        padding-top: 50px;
+        margin: 10px;
+        width: 70%;
+        text-align: right;
+        color: white;
+    }
+    .slide1text h1{
+        font-size: 20px;
+    }
+    .slide1text p {
+        font-size: 8px;
+    }
+    .bellowcardsection {
+        padding-bottom: 1100px;
+    }
+    .bellowcardchild1 p {
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+    .collumn2text {
+        padding: 50px;
+        font-size: 17px;
+    }
+    .naturetext {
+        font-size: 132px;
+    }
+    .naturediv {
+        width: 100%;
+        height: 610px;
+    }
+    .commapara {
+        padding: 10px;
+        font-size: 22px;
+    }
+    .commapara {
+        padding: 10px;
+        font-size: 16px;
+    }
+    .tigercard1 {
+        width: 90%;
+    }
+    .tigercard2 {
+        width: 90%;
+    }
+    .tigercard3 {
+        width: 90%;
+    }
+}
+@media screen and (max-width:375px){
+    .cardsection {
+        bottom: -902px;
+    }
+    .bellowcardsection {
+        padding-bottom: 1140px;
+    }
+    .slide1text h1 {
+        font-size: 17px;
+    }
+    .slide1text p {
+        font-size: 7px;
+    }
+    .slide1anchor {
+        color: white;
+        font-size: 16px;
+    }
+    .naturetext {
+        font-size: 100px;
+        padding-top: 200px;
+    }
+    .naturediv {
+        width: 100%;
+        height: 505px;
+    }
+    .tigerdivtext {
+        font-size: 94px;
+    }
+    .collumn2tiger h1 {
+        font-size: 25px;
+        padding-right: 0px;
+    }
+    .ourmission p {
+        font-size: 13px;
+    }
+    .ourmission {
+        padding-right: 0px;
+        padding: 30px;
+    }
+    .ourmission h1 {
+        font-size: 40px;
+    }
+    .naturecollumn1text p {
+        font-size: 15px;
+        color: white;
+    }
+    .collumn2lcardpic {
+        width: 100%;
+        height: 490px;
+        margin-left: 0px;
+    }
+    .lcard2pic {
+        width: 100%;
+        height: 409px;
+        margin-left: 0px;
+    }
+    .slide1anchor {
+        color: white;
+        font-size: 19px;
+    }
+    .lcardssection {
+        padding: 50px;
+    }
+    .collumn2lcardpic {
+        height: 370px;
+    }
+    .lcardpicwidth {
+        height: 298px;
+    }
+    .collumn2text {
+        padding: 0;
+        font-size: 13px;
+    }
+    .column2button {
+        padding: 5px 19px !important;
+        font-size: 17px;
+        border-radius: 0%;
+    }
+    .collumn3textdiv {
+        margin-top: 24px;
+        padding: 23px;
+        margin-left: 0px;
+        width: 100%;
+        margin-bottom: 21px;
+    }
+    .collumn3textdiv h2 {
+        font-size: 24px;
+    }
+    .collumn3textdiv p {
+        font-size: 12px;
+    }
+    .naturesection {
+        background: #1a1a1a;
+        padding: 30px 17px;
+    }
+    .comma {
+        font-size: 69px;
+    }
+    .comma {
+        font-size: 69px;
+    }
+    .commabtn {
+        padding: 2px 18px;
+        font-size: 21px;
+        border-radius: 0%;
+        color: white;
+    }
+    .ourmissionanchor {
+        font-size: 21px;
+        color: white;
+    }
+    .tigerdivwidth {
+        height: 400px;
+        
+    }
+    .tigerdivtext {
+        font-size: 81px;
+    }
+    .collumn2tiger h1 {
+        font-size: 17px;
+        padding-right: 0px;
+    }
+    .collumn2tiger p {
+        font-size: 12px;
+    }
+    .tiger2divwidth {
+        height: 400px;
+    }
+    .formimgtext1 h3 {
+        font-size: 25px;
+        line-height: 34px;
+        margin-left: 0px;
+        padding-right: 8px;
+    }
+    .formimgtext2 p {
+        font-size: 12px;
+        padding-right: 0px;
+    }
+    .formbtn {
+        color: #000;
+        padding: 8px 100px;
+        background: white;
+        font-size: 18px;
+        border-radius: 0px;
+        /* width: 92%; */
+    }
+    .formtext h1 {
+        font-size: 39px;
+        padding: 0px;
+    }
+    .formtext p {
+        font-size: 14px;
+    }
+    .formtext i {
+        font-size: 36px;
+        padding: 13px 0px;
+    }
+    .footerdiv1 {
+        width: 80%;
+    }
+    .tigercard1 {
+        width: 100%;
+        height: 250px;
+    }
+    .tigercard2 {
+        width: 100%;
+        height: 250px;
+    }
+    .tigercard3 {
+        width: 100%;
+        height: 250px;
+    }
+    .tigercards{
+        padding: 30px;
+        margin: auto;
+        
+    }
+    .naturecollumn2div {
+        margin-top: 1px;
+        width: 100%;
+        padding: 20px;
+        background: white;
+        /* padding-bottom: 50px; */
+    }
+    .naturetext {
+        font-size: 88px;
+        padding-top: 200px;
+    }
+    .naturediv {
+        width: 100%;
+        height: 400px;
+    }
+    .cardsection .row {
+            --bs-gutter-x: -4.5rem;
+            flex-wrap: wrap;
+        }
+        .slide2text h1 {
+            font-size: 17px;
+        }
+        .slide2text p {
+            font-size: 7px;
+        }
+        .slide2anchor {
+            color: white;
+            font-size: 16px;
+        }
+}
+@media screen and (max-width:325px){
+    .cardsection .row {
+        --bs-gutter-x: -1.2rem;
+        flex-wrap: wrap;
+    }
+    .lcardssection {
+        padding: 10px;
+    }
+    .column2button {
+        margin-left: 0px;
+    }
+    .bellowcardchild1 h1 {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .specialchilds {
+        padding-inline: 0px;
+        padding: 10px;
+    }
+    .naturetext {
+        font-size: 81px;
+        padding-top: 200px;
+    }
+    .naturecollumn2div h5{
+        font-size: 17px;
+    }
+    .formsection {
+        padding: 35px 8px;
+    }
+    .formimgtext1 h3 {
+        font-size: 22px;
+        line-height: 34px;
+        margin-left: 0px;
+        padding-right: 8px;
+    }
+}
+
+

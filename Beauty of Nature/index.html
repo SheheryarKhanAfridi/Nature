@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/task2.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Demo styles -->
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+            </ul>
+
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Swiper -->
+
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide slide1">
+          <div class="slide1parent">
+            <div class="slide1text">
+              <h1>Look Deep Into The Nature</h1>
+              <p>
+                NATURE WILL BEAR THE CLOSEST INSPECTION. SHE INVITES US TO LAY
+                OUR EYE LEVEL WITH HER SMALLEST LEAF, AND TAKE AN INSECT VIEW OF
+                ITS PLAIN.
+              </p>
+              <a href="" class="slide1anchor">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide slide2">
+          <div class="slide1parent">
+            <div class="slide1text">
+              <h1>Look Deep Into The Nature</h1>
+              <p>
+                NATURE WILL BEAR THE CLOSEST INSPECTION. SHE INVITES US TO LAY
+                OUR EYE LEVEL WITH HER SMALLEST LEAF, AND TAKE AN INSECT VIEW OF
+                ITS PLAIN.
+              </p>
+              <a href="" class="slide1anchor">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide slide3">
+          <div class="slide1parent">
+            <div class="slide1text">
+              <h1>Look Deep Into The Nature</h1>
+              <p>
+                NATURE WILL BEAR THE CLOSEST INSPECTION. SHE INVITES US TO LAY
+                OUR EYE LEVEL WITH HER SMALLEST LEAF, AND TAKE AN INSECT VIEW OF
+                ITS PLAIN.
+              </p>
+              <a href="" class="slide1anchor">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide slide4">
+          <div class="slide1parent">
+            <div class="slide1text">
+              <h1>Look Deep Into The Nature</h1>
+              <p>
+                NATURE WILL BEAR THE CLOSEST INSPECTION. SHE INVITES US TO LAY
+                OUR EYE LEVEL WITH HER SMALLEST LEAF, AND TAKE AN INSECT VIEW OF
+                ITS PLAIN.
+              </p>
+              <a href="" class="slide1anchor">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide slide5">
+          <div class="slide1parent">
+            <div class="slide1text">
+              <h1>Look Deep Into The Nature</h1>
+              <p>
+                NATURE WILL BEAR THE CLOSEST INSPECTION. SHE INVITES US TO LAY
+                OUR EYE LEVEL WITH HER SMALLEST LEAF, AND TAKE AN INSECT VIEW OF
+                ITS PLAIN.
+              </p>
+              <a href="" class="slide1anchor">Learn more</a>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide slide6">
+          <div class="slide1parent">
+            <div class="slide1text">
+              <h1>Look Deep Into The Nature</h1>
+              <p>
+                NATURE WILL BEAR THE CLOSEST INSPECTION. SHE INVITES US TO LAY
+                OUR EYE LEVEL WITH HER SMALLEST LEAF, AND TAKE AN INSECT VIEW OF
+                ITS PLAIN.
+              </p>
+              <a href="" class="slide1anchor">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+
+    <!-- cards section -->
+
+    <section class="cardsection">
+      <div class="container">
+        <!-- Thapa Technical  -->
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-3 card1 bg-white">
+            <div class="cardimage">
+              <img src="./images/card1.jpg" alt="" class="cardimage" />
+            </div>
+            <h4 class="card1text">FOREST THERAPY</h4>
+          </div>
+          <div class="col-md-3 card1 bg-white">
+            <div class="cardimage">
+              <img src="./images/card2.jpg" alt="" class="cardimage" />
+            </div>
+            <h4 class="card1text">30 BEST BEACHES</h4>
+          </div>
+          <div class="col-md-3 card1 bg-white">
+            <div class="cardimage">
+              <img src="./images/card3.jpg" alt="" class="cardimage" />
+            </div>
+            <h4 class="card1text">WILD NATURE</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="bellowcardsection"></div>
+
+    <section class="bellowcard">
+      <div class="container">
+        <div>
+          <div class="bellowcardchild1">
+            <h1>Getting back to nature</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius,
+              accusantium molestias. Quam cumque odit provident maiores
+              repellat, dolores saepe recusandae alias tempore molestias
+              repellendus eligendi autem? Consectetur praesentium eum non!
+            </p>
+            <a href="" class="slide1anchor">Learn more</a>
+          </div>
+        </div>
+        <div class="row lcardssection">
+          <div class="col-md-4">
+            <div class="lcardswidth">
+              <img src="./images/lcard1.jpg" alt="" class="lcardpicwidth" />
+            </div>
+            <div class="lcards2width">
+              <img src="./images/lcard2.jpg" alt="" class="lcard2pic" />
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="collumn2lcard1">
+              <img src="./images/lcard3.jpg" alt="" class="collumn2lcardpic" />
+            </div>
+            <p class="collumn2text">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+              cupidatat non proident.
+            </p>
+            <button type="button" class="btn btn-success column2button">
+              Learn more
+            </button>
+          </div>
+          <div class="col-md-4">
+            <div class="collumn3textdiv">
+              <h2><b>Amazing</b> Places</h2>
+              <p>
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row specialchilds">
+          <div class="col-md-4 specialchild1">
+            <h1>This place is special...</h1>
+          </div>
+          <div class="col-md-4 specialchild2">
+            <p>
+              Due to its commanding position, in the Second World War the Fort
+              House was used by the military as an observation post and even had
+              the roof reinforced to protect it from an aerial attack, with two
+              feet of concrete, making it bomb proof from enemy aircraft. With
+              its historic harbour, rockpools and sandy beaches St Mawes
+              provides the idyllic Cornish escape and The Fort House the perfect
+              property in which to stay
+            </p>
+          </div>
+          <div class="col-md-4 specialchild3">
+            <p>
+              This spacious and airy single storey holiday cottage sits in a
+              private garden whose terrace provides uninterrupted views of the
+              spectacular Cornish coastline. A short walk leads you in to the
+              centre of the picturesque fishing village of St Mawes with its
+              whitewashed cottages, galleries character pubs and restaurants.
+            </p>
+            <a href="">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="naturesection">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="naturediv">
+              <div>
+                <h1 class="naturetext">Nature</h1>
+              </div>
+            </div>
+            <div class="naturecollumn1text">
+              <p>
+                We seek to inspire and educate all members of our local region
+                about the benefits of being good environmental stewards through
+                responsible and sustainable use of natural resources.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="naturecollumn2div">
+              <i class="fa-solid fa-quote-left comma"></i>
+              <p class="commapara">
+                To discover and share knowledge about plants and their
+                environment in order to preserve and enrich life.
+              </p>
+              <h5>– Botanical Garden mission</h5>
+              <button type="button" class="btn btn-info commabtn">
+                Learn more
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mightbackground">
+      <div class="container">
+        <h1 class="text-center pt-5"><b>You Might Also Like</b></h1>
+        <div class="row">
+          <div class="migthcardssection">
+            <div class="col-md-4 m-3">
+              <div class="mcard1width">
+                <img src="./images/llcard1.jpeg" alt="" class="llcard1" />
+                <p class="llcardtext">
+                  Snapping Shrimp 'Dinner Bell' May Tell Gray Whales When to Eat
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 m-3">
+              <div class="mcard1width">
+                <img src="./images/llcard2.jpeg" alt="" class="llcard1" />
+                <p class="llcardtext">
+                  Get Up Close With Wildlife in Mexico's Magdalena Bay
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 m-3">
+              <div class="mcard1width">
+                <img src="./images/llcard3.jpeg" alt="" class="llcard1" />
+                <p class="llcardtext3">Where It’s Okay to Pet the Whales</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ourmissionsection">
+      <div class="container">
+        <div class="ourmission">
+          <h1>Our Mission</h1>
+          <p>
+            Forest Therapy is a research-based framework for supporting healing
+            and wellness through immersion in forests and other natural
+            environments. Forest Therapy is inspired by the Japanese practice of
+            Shinrin-Yoku, which translates to "forest bathing." Studies have
+            demonstrated a wide array of health benefits, especially in the
+            cardiovascular and immune systems, and for stabilizing and improving
+            mood and cognition
+          </p>
+          <a href="" class="ourmissionanchor">Learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="tigerdivwidth"></div>
+            <h1 class="tigerdivtext"><b>Wildlife</b></h1>
+          </div>
+          <div class="col-md-6">
+            <div class="collumn2tiger">
+              <h1>Africa is home to many of the world's most</h1>
+              <p>
+                The list is intended not only to showcase the incredible variety
+                of life on Earth but to “bring attention to the biodiversity
+                crisis and the species explorers who are doing something about
+                it,” https://nicepage.com/
+              </p>
+            </div>
+            <div class="tiger2divwidth"></div>
+
+            <div class="tiger2cards">
+              <div class="row">
+                <div class="tigercards">
+                  <div class="col-md-4 tigercard1"></div>
+                  <div class="col-md-4 tigercard2"></div>
+                  <div class="col-md-4 tigercard3"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="formsection">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="formtext">
+              <h1>Contact Us</h1>
+              <i class="fa-solid fa-location-crosshairs"></i>
+              <p><b>121 Rock Sreet, 21 Avenue, New York, NY 92103-9000</b></p>
+              <i class="fa-solid fa-mobile"></i>
+              <p>1 (234) 567-891</p>
+              <p>1 (234) 987-654</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  placeholder="Enter your Name"
+                  class="form-control formsize"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  placeholder="Enter your Email"
+                  class="form-control formsize"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+                <div id="emailHelp" class="form-text">
+                  We'll never share your email with anyone else.
+                </div>
+              </div>
+              <div class="mb-3">
+                <textarea
+                  name="formtextarea"
+                  placeholder="Enter your message"
+                  id=""
+                  cols="50"
+                  rows="6"
+                  class="form-control formsize"
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn formbtn">Submit</button>
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 formimgsectionparent1">
+            <div class="formimagesdiv"></div>
+            <div class="formimgtext1">
+              <h3>
+                <b>We are looking forward to start a project with you!</b>
+              </h3>
+            </div>
+          </div>
+          <div class="col-md-6 formimgsectionparent1">
+            <div class="formimgtext2">
+              <p>
+                Morbi convallis metus eros, semper efficitur auctor. Etiam sit
+                amet convallis erat. Class aptent taciti sociosqu ad litora
+                torquent per conubia! Maecenas gravida lacus nec dolor suscipit
+                faucibus.
+              </p>
+              <a href="">LEARN MORE</a>
+            </div>
+            <div class="formimagesdiv2"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="footerparent">
+        <div class="footerdiv1">
+          <p>
+            Sample text. Click to select the text box. Click again or double
+            click to start editing the text.
+          </p>
+        </div>
+        <div class="footerdiv2">
+          <a href="">Template</a> <span>created with</span>
+          <a href="">Nicepage</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
